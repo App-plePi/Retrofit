@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<List<PostData>>, t: Throwable) {
-                Log.e("error", "error caused!")
+                t.printStackTrace()
             }
 
         })
