@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object JsonPlaceHolderClient {
 
-    // singleton Pattern
+    // Singleton Pattern
     private const val baseUrl = "https://jsonplaceholder.typicode.com/"
     private var instance: Retrofit? = null
 
